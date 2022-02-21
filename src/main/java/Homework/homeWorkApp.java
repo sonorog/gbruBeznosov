@@ -44,7 +44,7 @@ public class homeWorkApp {
             System.out.println("Зелёный");
         }
 
-
+//задание 5
     }
     public static void comprareNumbers() {
         int a=2;
