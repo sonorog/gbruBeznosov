@@ -5,7 +5,10 @@ public class homework2 {
 
        System.out.println(within10and20(2,3));
 
-       xpositiveornot(3);
+       xpositiveornot(0);
+
+       System.out.println(isnegative(3));
+
 
 
     }
@@ -26,6 +29,15 @@ public class homework2 {
 
 
 
+
+    }
+    public static boolean isnegative (int a) {
+        if (a < 0)
+        {
+            return true;
+        }else{
+            return false;
+        }
 
     }
 }
