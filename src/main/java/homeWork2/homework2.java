@@ -5,7 +5,8 @@ public class homework2 {
 
        System.out.println(within10and20(2,3));
 
-       xpositiveornot(-1);
+       xpositiveornot(3);
+
 
     }
 
@@ -17,10 +18,10 @@ public class homework2 {
 
     public static void xpositiveornot(int x) {
         if (x < 0) {
-            System.out.println("x-отрицательное число");
+            System.out.println("передано отрицательное число");
         }
         else {
-            System.out.println("x-положительное число");
+            System.out.println("передано положительное число");
         }
 
 
