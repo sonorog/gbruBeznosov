@@ -9,6 +9,10 @@ public class homework2 {
 
        System.out.println(isnegative(3));
 
+        printWordnTime (3,"Какая-то ерунда для вывода");
+
+
+
 
 
     }
@@ -28,8 +32,6 @@ public class homework2 {
         }
 
 
-
-
     }
     public static boolean isnegative (int a) {
         if (a < 0)
@@ -37,6 +39,14 @@ public class homework2 {
             return true;
         }else{
             return false;
+        }
+
+    }
+    public static void printWordnTime(int times,String Word) {
+
+
+        for (int i=0; i< times; i++){
+            System.out.println(Word);
         }
 
     }
